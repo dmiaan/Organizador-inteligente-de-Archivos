@@ -15,11 +15,11 @@ carpetas = {"Ejecutables": [".exe"],
 ruta_carpeta = input("Introduce la ruta de la carpeta que deseas organizar: ") #  Pidiendole al usuario que introduzca la ruta de la carpeta. 
 
 
-for elemento in os.listdir(ruta_carpeta): # Recorriendo los archivos y carpetas del directorio  
+for elemento in os.listdir(ruta_carpeta):  
     ruta_completa = os.path.join(ruta_carpeta, elemento) 
     if os.path.isfile(ruta_completa): # El filtro de seguridad para comprobar si es un archivo o una carpeta
         print(f"Archivo detectado: {elemento}")
-        nombre, extension = os.path.splitext(elemento) # Separación del texto
+        nombre, extension = os.path.splitext(elemento) 
         extension = extension.lower()
         destino = "Otros" # Asignando un destino por defecto
         for nombre_categoria, lista_extensiones in carpetas.items():
@@ -28,10 +28,9 @@ for elemento in os.listdir(ruta_carpeta): # Recorriendo los archivos y carpetas 
                 break
         ruta_exacta = os.path.join(ruta_carpeta, destino)  
         if not os.path.isdir(ruta_exacta):
-            os.mkdir(ruta_exacta) # Creamos la carpeta si no existe 
+            os.mkdir(ruta_exacta) 
         ruta_final = os.path.join(ruta_exacta, elemento)     
-        archivo_mudanza = shutil.move(ruta_completa, ruta_final)  # Haciendo la mudanza del archivo         
-                
+        archivo_mudanza = shutil.move(ruta_completa, ruta_final) 
    
    
             

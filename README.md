@@ -2,7 +2,7 @@
 
 - Un script eficiente desarrollado en Python para ordenar cualquier carpeta automáticamente. Le indicas la ruta del directorio que quieres organizar por la terminal, y él se encarga de acomodar cada archivo en su respectiva categoría según su formato.
 
-✱ 𝐂𝐚𝐫𝐚𝐜𝐭𝐞𝐫𝐢́𝐬𝐭𝐢𝐜𝐚𝐬
+✱ Características
 
 ● Es interactivo: Pide por consola la ruta exacta de la carpeta que deseas ordenar.
 
@@ -22,7 +22,7 @@ os: Librería que nos permite conectar el código con nuestro sistema operativo.
 
 shutil: Esta librería nos permite realizar operaciones de alto nivel en archivos y directorios.
 
-✱ ¿𝐂𝐨́𝐦𝐨 𝐮𝐬𝐚𝐫𝐥o?:
+✱ ¿Cómo Usarlo?:
 
 1. Clona o descarga este repositorio.
 2. Abre tu terminal en la carpeta del proyecto.
