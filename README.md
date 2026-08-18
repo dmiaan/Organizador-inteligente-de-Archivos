@@ -12,7 +12,7 @@
 
 ● Ignora mayúsculas: No importa si la extensión está en mayúsculas, igualmente la procesa.
 
-✱ 𝐓𝐞𝐜𝐧𝐨𝐥𝐨𝐠𝐢́𝐚𝐬 𝐲 𝐋𝐢𝐛𝐫𝐞𝐫𝐢́a𝐬 𝐮𝐭𝐢𝐥𝐢𝐳𝐚𝐝𝐚𝐬:
+✱ Tecnologías y librerías utilizadas:
 
 ● Python 3
 
