@@ -12,8 +12,7 @@ carpetas = {"Ejecutables": [".exe"],
             "Instaladores / Imágenes de Disco": [".msi", ".dmg", ".iso", ".pkg"],
             "Diseño / Gráficos Avanzados": [".psd", ".ai"]}
 
-ruta_carpeta = input("Introduce la ruta de la carpeta que deseas organizar: ") #  Pidiendole al usuario que introduzca la ruta de la carpeta. 
-
+ruta_carpeta = input("Introduce la ruta de la carpeta que deseas organizar: ")
 
 for elemento in os.listdir(ruta_carpeta):  
     ruta_completa = os.path.join(ruta_carpeta, elemento) 
